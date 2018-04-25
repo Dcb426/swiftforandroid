@@ -20,6 +20,9 @@ class MasterViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         getJsonFromUrl();
+        let imageView = UIImageView(image:#imageLiteral(resourceName: "Image"))
+        self.navigationItem.titleView = imageView
+        self.navigationController?.navigationBar.barTintColor = UIColor.darkGray
 //        // Do any additional setup after loading the view, typically from a nib.
 //        navigationItem.leftBarButtonItem = editButtonItem
 //
@@ -65,7 +68,7 @@ class MasterViewController: UITableViewController {
     // MARK: - Table View
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return 2
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
