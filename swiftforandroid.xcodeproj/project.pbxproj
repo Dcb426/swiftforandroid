@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B512892209118CC0019E4CF /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B512891209118CC0019E4CF /* DataController.swift */; };
+		1B512894209119FE0019E4CF /* DataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B512893209119FE0019E4CF /* DataObject.swift */; };
 		1B635CA92053222600F0C8D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B635CA82053222600F0C8D0 /* AppDelegate.swift */; };
 		1B635CAB2053222600F0C8D0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B635CAA2053222600F0C8D0 /* MasterViewController.swift */; };
 		1B635CAD2053222600F0C8D0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B635CAC2053222600F0C8D0 /* DetailViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B512891209118CC0019E4CF /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		1B512893209119FE0019E4CF /* DataObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataObject.swift; sourceTree = "<group>"; };
 		1B635CA52053222600F0C8D0 /* swiftforandroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftforandroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B635CA82053222600F0C8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B635CAA2053222600F0C8D0 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				1B635CA82053222600F0C8D0 /* AppDelegate.swift */,
 				1B635CAA2053222600F0C8D0 /* MasterViewController.swift */,
 				1B635CAC2053222600F0C8D0 /* DetailViewController.swift */,
+				1B512891209118CC0019E4CF /* DataController.swift */,
+				1B512893209119FE0019E4CF /* DataObject.swift */,
 				1B635CAE2053222600F0C8D0 /* Main.storyboard */,
 				1B635CB12053222600F0C8D0 /* Assets.xcassets */,
 				1B635CB32053222600F0C8D0 /* LaunchScreen.storyboard */,
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B635CAD2053222600F0C8D0 /* DetailViewController.swift in Sources */,
+				1B512892209118CC0019E4CF /* DataController.swift in Sources */,
 				1B635CAB2053222600F0C8D0 /* MasterViewController.swift in Sources */,
 				1B635CA92053222600F0C8D0 /* AppDelegate.swift in Sources */,
+				1B512894209119FE0019E4CF /* DataObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
