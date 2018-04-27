@@ -33,12 +33,12 @@ class MasterViewController: UITableViewController {
             
             if let jsonObj = try? JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? NSDictionary {
                 
-                if let allDatData = jsonObj!.value(forKey: "datData") as? NSDictionary{
-                    print(allDatData)
-                    if let franArrary = allDatData.value(forKey: "franchise") as? NSArray {
-                        for franchiseDict in franArrary {
-                            if let fName = (franchiseDict as! NSDictionary).value(forKey: "fName") as? String{
-                                self.franchises.append(fName)
+                if let allThatData = jsonObj!.value(forKey: "datData") as? NSDictionary{
+                    print(allThatData)
+                    if let franchiseArrary = allThatData.value(forKey: "franchise") as? NSArray {
+                        for franchiseDict in franchiseArrary {
+                            if let franchiseName = (franchiseDict as! NSDictionary).value(forKey: "franchiseName") as? String{
+                                self.franchises.append(franchiseName)
                                 
                                 if let entriesArray = (franchiseDict as! NSDictionary).value(forKey: "entries") as? NSArray {
                                     self.objectsReturned = []
@@ -62,6 +62,7 @@ class MasterViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         clearsSelectionOnViewWillAppear = splitViewController!.isCollapsed
         super.viewWillAppear(animated)
+                //getJsonFromUrl()
     }
 
     override func didReceiveMemoryWarning() {
@@ -81,9 +82,9 @@ class MasterViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                //let object = objects[indexPath.row]
+                let object =  myfulldata[indexPath.section][indexPath.row]
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
-                //controller.detailItem = object
+                controller.detailItem = object
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }
@@ -104,7 +105,6 @@ class MasterViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        
         let obj =  myfulldata[indexPath.section][indexPath.row]
         cell.textLabel?.text = obj.name
         cell.detailTextLabel?.text = obj.yearStart

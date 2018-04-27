@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftforandroid/DetailViewController.swift"
+            timestampString = "546553643.701171"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftforandroid.DetailViewController.__deallocating_deinit"
+                  moduleName = "swiftforandroid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dcb13a/Documents/swiftforandroid/swiftforandroid/DetailViewController.swift"
+                  timestampString = "546552208.407284"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftforandroid.DetailViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; swiftforandroid.DetailViewController"
+                  moduleName = "swiftforandroid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dcb13a/Documents/swiftforandroid/swiftforandroid/DetailViewController.swift"
+                  timestampString = "546552208.409348"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftforandroid.DetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; swiftforandroid.DetailViewController"
+                  moduleName = "swiftforandroid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dcb13a/Documents/swiftforandroid/swiftforandroid/DetailViewController.swift"
+                  timestampString = "546552208.411653"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftforandroid.DetailViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;swiftforandroid.DetailViewController&gt;"
+                  moduleName = "swiftforandroid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dcb13a/Documents/swiftforandroid/swiftforandroid/DetailViewController.swift"
+                  timestampString = "546552208.413777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftforandroid.DetailViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;swiftforandroid.DetailViewController&gt;"
+                  moduleName = "swiftforandroid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dcb13a/Documents/swiftforandroid/swiftforandroid/DetailViewController.swift"
+                  timestampString = "546552208.415517"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
