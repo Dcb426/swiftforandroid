@@ -16,7 +16,7 @@ class DataObject: NSObject {
     var network: String?
     var studio: String?
     var imageurl = String()
-    var showDesc = String()
+    var showDesccription = String()
     var showSummary = String()
     var castArray = [Dictionary<String, String>]()
     
@@ -40,7 +40,7 @@ class DataObject: NSObject {
             studio = val as? String
         }
         imageurl = dictionary["imageURL"] as! String
-        showDesc = dictionary["description"] as! String
+        showDesccription = dictionary["description"] as! String
         showSummary = dictionary["summary"] as! String
         castArray = dictionary["starring"] as! [Dictionary<String, String>]
         
